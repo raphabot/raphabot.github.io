@@ -16,8 +16,8 @@ dateFormat = "2 January 2006"
 
 [author]
   name = "Raphael Bottino"
-  image = "img/profile.jpeg"
-  headline = "Builder"
+  image = "img/profile.png"
+  headline = "Solutions Architect, Cloud Security"
   bio = "AWS Community Builder | Creating security experience that Developers care about."
   links = [
     
