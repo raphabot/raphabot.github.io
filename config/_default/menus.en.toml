@@ -16,19 +16,24 @@
   weight = 10
 
 [[main]]
-  name = "Videos"
-  pageRef = "videos"
-  weight = 20
-
-[[main]]
   name = "Speaker Sessions"
   pageRef = "speaker-sessions"
-  weight = 30
+  weight = 20
 
 [[main]]
   name = "Projects"
   pageRef = "projects"
+  weight = 30
+
+[[main]]
+  name = "Podcasts"
+  pageRef = "podcasts"
   weight = 40
+
+[[main]]
+  name = "Community"
+  pageRef = "community"
+  weight = 50
 
 [[main]]
   identifier = "search"

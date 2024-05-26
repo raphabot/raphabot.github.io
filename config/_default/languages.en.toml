@@ -1,30 +1,29 @@
 languageCode = "en"
 languageName = "English"
-displayName = "EN"
-isoCode = "en"
 weight = 1
-rtl = false
-
 title = "Raphael Bottino"
-description = "AWS Community Builder | Creating security experience that Developers care about."
 # copyright = "Copy, _right?_ :thinking_face:"
 
-dateFormat = "2 January 2006"
 
 [params]
   # mainSections = ["section1", "section2"]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  description = "Cloud and Application Security"
+  dateFormat = "2 January 2006"
 
-[author]
+
+[params.author]
   name = "Raphael Bottino"
   image = "img/profile.png"
-  headline = "Solutions Architect, Cloud Security"
-  bio = "AWS Community Builder | Creating security experience that Developers care about."
+  headline = "Cloud Security | AWS Community Builder | AWS User Group Leader | North America DevOps Chapter Leader"
+  bio = "Cloud Security | AWS Community Builder | AWS User Group Leader | North America DevOps Chapter Leader"
   links = [
-    
     { github = "https://github.com/raphabot" },
     { medium = "https://medium.com/@raphabot" },
     { linkedin = "https://linkedin.com/in/rbottino/" },
-    { twitter = "https://twitter.com/raphabot" },
+    { x-twitter = "https://twitter.com/raphabot" },
     { email = "mailto:raphabot@gmail.com" },
   ]
   #   { link = "https://link-to-some-website.com/" },
@@ -32,7 +31,7 @@ dateFormat = "2 January 2006"
   #   { apple = "https://www.apple.com" },
   #   { blogger = "https://username.blogspot.com/" },
   #   { codepen = "https://codepen.io/username" },
-    # { dev = "https://dev.to/raphabot" },
+  #   { dev = "https://dev.to/raphabot" },
   #   { discord = "https://discord.gg/invitecode" },
   #   { dribbble = "https://dribbble.com/username" },
   #   { facebook = "https://facebook.com/username" },

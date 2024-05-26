@@ -31,11 +31,11 @@ enableCodeCopy = true
   recentLimit = 5
 
 [article]
-  showDate = true
+  showDate = false
   showDateUpdated = false
-  showAuthor = true
+  showAuthor = false
   showBreadcrumbs = false
-  showDraftLabel = true
+  showDraftLabel = false
   showEdit = false
   # editURL = "https://github.com/username/repo/"
   editAppendPath = true
@@ -54,7 +54,7 @@ enableCodeCopy = true
   showSummary = false
   showTableOfContents = false
   showTaxonomies = false
-  groupByYear = true
+  groupByYear = false
   paginationWidth = 1
 
 [sitemap]
