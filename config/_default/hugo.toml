@@ -2,6 +2,8 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://jpanther.github.io/congo/docs/getting-started/
 
+timeout = "10m"
+
 baseURL = "https://raphabot.com/"
 defaultContentLanguage = "en"
 
@@ -30,5 +32,3 @@ summaryLength = 0
 [services]
   [services.x]
     disableInlineCSS = true
-
-timeout = 300000
