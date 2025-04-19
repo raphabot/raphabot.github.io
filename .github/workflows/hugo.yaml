@@ -36,11 +36,15 @@ jobs:
       HUGO_ENVIRONMENT: production
       TZ: America/Los_Angeles
     steps:
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+      - name: Install Go
+        uses: actions/setup-go@v5
         with:
-          hugo-version: '0.145.0'
-          extended: true
+          go-version: ">1.0.0"
+      - name: RUN Go
+        run: go version
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_darwin-universal.tar.gz
       - name: Checkout
         uses: actions/checkout@v4
         with:
