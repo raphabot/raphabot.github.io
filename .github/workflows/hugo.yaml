@@ -45,6 +45,7 @@ jobs:
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_darwin-universal.tar.gz \
+          && chmod +x ${{ runner.temp }}/hugo /
           && echo "${{ runner.temp }}" >> "$GITHUB_PATH"
       - name: Checkout
         uses: actions/checkout@v4
