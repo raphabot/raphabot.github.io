@@ -65,6 +65,8 @@ jobs:
         run: |
           hugo \
             --gc \
+            --templateMetrics \
+            --logLevel debug \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
