@@ -9,9 +9,9 @@ enableRobotsTXT = true
 summaryLength = 0
 
 # GitHub Specific
-caches:
-  images:
-    dir: :cacheDir/images
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 [pagination]
   pagerSize = 10
