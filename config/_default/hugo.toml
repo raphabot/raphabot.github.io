@@ -31,4 +31,4 @@ summaryLength = 0
   [services.x]
     disableInlineCSS = true
 
-timeout = "3000s"
+timeout = 300000
