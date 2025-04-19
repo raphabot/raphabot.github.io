@@ -30,7 +30,7 @@ defaults:
 jobs:
   # Build job
   build:
-    runs-on: macos-latest
+    runs-on: macos-13
     env:
       HUGO_VERSION: 0.145.0
       HUGO_ENVIRONMENT: production
