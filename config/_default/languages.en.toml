@@ -17,8 +17,8 @@ title = "Raphael Bottino"
 [params.author]
   name = "Raphael Bottino"
   image = "img/profile.png"
-  headline = "Cloud Security | AWS Community Builder | AWS User Group Leader | North America DevOps Chapter Leader"
-  bio = "Cloud Security | AWS Community Builder | AWS User Group Leader | North America DevOps Chapter Leader"
+  headline = "Cloud and Application Security | AWS Community Builder | AWS User Group Leader | Co-host of the A Culpa é de Sec Podcast | North America DevOps Chapter Leader"
+  bio = "Cloud and Application Security | AWS Community Builder | AWS User Group Leader | Co-host of the A Culpa é de Sec Podcast | North America DevOps Chapter Leader"
   links = [
     { github = "https://github.com/raphabot" },
     { medium = "https://medium.com/@raphabot" },
