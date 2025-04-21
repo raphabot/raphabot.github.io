@@ -130,7 +130,7 @@ Creating an Advanced Selector like the one below, enables us to listen only to t
 ]
 ```
 
-In summary, using CloudTrail, we are able not just to deploy a "detector" at scale easily, but also to cheaply run it at scale as well. The proof is that you can find this Detection defined as CloudFormation code that you can apply today in the same [S3 Ramsomware Simulator repository](http://github.com/raphabot/s3-ransomware-simulator).
+In summary, using CloudTrail, we are able not just to deploy a "detector" at scale easily, but also to cheaply run it at scale as well. The proof is that you can find this Detection defined as CloudFormation code that you can apply today in the same [S3 Ransomware Simulator repository](http://github.com/raphabot/s3-ransomware-simulator).
 
 ## Response:
 
@@ -154,7 +154,7 @@ The workflow below will guarantee that, in case of an attack where the identity 
 
 ![Response State Machine](media/state-machine.png)
 
-You can find this sample Response defined as CloudFormation code in the same [S3 Ramsomware Simulator repository](http://github.com/raphabot/s3-ransomware-simulator).
+You can find this sample Response defined as CloudFormation code in the same [S3 Ransomware Simulator repository](http://github.com/raphabot/s3-ransomware-simulator).
 
 <!-- - Adding AWSCompromisedKeyQuarantineV3: https://docs.aws.amazon.com/aws-managed-policy/latest/reference/AWSCompromisedKeyQuarantineV3.html
     - https://xebia.com/blog/what-happens-when-you-leak-aws-credentials-and-how-aws-minimizes-the-damage/ 
