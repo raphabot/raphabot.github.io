@@ -1,5 +1,5 @@
 ---
-date: 2025-04-21T22:09:54-06:00
+date: 2025-04-21T10:09:54-06:00
 title: "Simulating, Detecting and Responding to S3 Ransomware Attacks"
 ---
 
