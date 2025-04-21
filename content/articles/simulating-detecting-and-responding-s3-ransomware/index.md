@@ -152,7 +152,7 @@ For an Assumed Role, you have options. You could update the role to remove this 
 
 The workflow below will guarantee that, in case of an attack where the identity is either an IAM User or an Assumed Role, that the identity will be invalidated automatically. 
 
-![Response State Machine](media/state-machine.png)
+![Response State Machine](state-machine.png)
 
 You can find this sample Response defined as CloudFormation code in the same [S3 Ransomware Simulator repository](http://github.com/raphabot/s3-ransomware-simulator).
 
