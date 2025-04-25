@@ -195,7 +195,9 @@ The most effective action that you can take, in case your organization isn't usi
 
 ### Restrict CopyObject
 
-If your applications are not using the CopyObject action, it might be a good idea to block it in your most critical S3 Buckets. Example of BucketPolicy:
+If your applications are not using the CopyObject action, it might be a good idea to block it in your most critical S3 Buckets. However, as pointed out by [Jason Kao](https://www.linkedin.com/in/kaojason/), one can't simply block the CopyAction. But if you look closely to the [CopyObject API](https://docs.aws.amazon.com/AmazonS3/latest/API/API_CopyObject.html), it is the same PUT http verb as the [PutObject](https://docs.aws.amazon.com/AmazonS3/latest/API/API_PutObject.html). One of the main differences is the collection of `x-amz-copy-source` headers. So, if we craft our bucket policy to block any PutObject request that contains the `x-amz-copy-source` header, we are effectively blocking any CopyObject request. 
+
+Example of BucketPolicy:
 
 ```json
 {
@@ -206,8 +208,13 @@ If your applications are not using the CopyObject action, it might be a good ide
             "Sid": "RestrictCopyObject",
             "Effect": "Deny",
             "Principal": "*",
-            "Action": "s3:CopyObject",
-            "Resource": "arn:aws:s3:::my-important-bucket/*"
+            "Action": "s3:PutObject",
+            "Resource": "arn:aws:s3:::my-important-bucket/*",
+            "Condition": {
+                "Null": {
+                    "s3:x-amz-copy-source": "false"
+                }
+            }
         }
     ]
 }
